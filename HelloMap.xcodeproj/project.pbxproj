@@ -6,17 +6,29 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EFBE00912D9B824E00F41BC0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFBE008B2D9B824E00F41BC0 /* Preview Assets.xcassets */; };
+		EFBE00922D9B824E00F41BC0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFBE008D2D9B824E00F41BC0 /* Assets.xcassets */; };
+		EFBE00932D9B824E00F41BC0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBE008E2D9B824E00F41BC0 /* ContentView.swift */; };
+		EFBE00942D9B824E00F41BC0 /* HelloMapApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBE008F2D9B824E00F41BC0 /* HelloMapApp.swift */; };
+		EFBE00982D9B8CB200F41BC0 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBE00972D9B8CB200F41BC0 /* LocationManager.swift */; };
+		EFBE009B2D9B8D1000F41BC0 /* CLLocationCoordinate2D+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBE009A2D9B8D1000F41BC0 /* CLLocationCoordinate2D+Ext.swift */; };
+		EFBE009E2D9B8D5000F41BC0 /* MapOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBE009D2D9B8D5000F41BC0 /* MapOption.swift */; };
+		EFBE00A02D9B92B600F41BC0 /* MKCoordinateRegion+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFBE009F2D9B92B600F41BC0 /* MKCoordinateRegion+Ext.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EFBE007A2D9B824400F41BC0 /* HelloMap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloMap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFBE008B2D9B824E00F41BC0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFBE008D2D9B824E00F41BC0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFBE008E2D9B824E00F41BC0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EFBE008F2D9B824E00F41BC0 /* HelloMapApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelloMapApp.swift; sourceTree = "<group>"; };
+		EFBE00952D9B8B5800F41BC0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFBE00972D9B8CB200F41BC0 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		EFBE009A2D9B8D1000F41BC0 /* CLLocationCoordinate2D+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocationCoordinate2D+Ext.swift"; sourceTree = "<group>"; };
+		EFBE009D2D9B8D5000F41BC0 /* MapOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapOption.swift; sourceTree = "<group>"; };
+		EFBE009F2D9B92B600F41BC0 /* MKCoordinateRegion+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MKCoordinateRegion+Ext.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EFBE007C2D9B824400F41BC0 /* HelloMap */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HelloMap;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EFBE00772D9B824400F41BC0 /* Frameworks */ = {
@@ -32,7 +44,7 @@
 		EFBE00712D9B824300F41BC0 = {
 			isa = PBXGroup;
 			children = (
-				EFBE007C2D9B824400F41BC0 /* HelloMap */,
+				EFBE00902D9B824E00F41BC0 /* HelloMap */,
 				EFBE007B2D9B824400F41BC0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +55,54 @@
 				EFBE007A2D9B824400F41BC0 /* HelloMap.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EFBE008C2D9B824E00F41BC0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFBE008B2D9B824E00F41BC0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFBE00902D9B824E00F41BC0 /* HelloMap */ = {
+			isa = PBXGroup;
+			children = (
+				EFBE00952D9B8B5800F41BC0 /* Info.plist */,
+				EFBE009C2D9B8D4000F41BC0 /* Model */,
+				EFBE00992D9B8CE100F41BC0 /* Extension */,
+				EFBE00962D9B8C8500F41BC0 /* Manager */,
+				EFBE008E2D9B824E00F41BC0 /* ContentView.swift */,
+				EFBE008F2D9B824E00F41BC0 /* HelloMapApp.swift */,
+				EFBE008D2D9B824E00F41BC0 /* Assets.xcassets */,
+				EFBE008C2D9B824E00F41BC0 /* Preview Content */,
+			);
+			path = HelloMap;
+			sourceTree = "<group>";
+		};
+		EFBE00962D9B8C8500F41BC0 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				EFBE00972D9B8CB200F41BC0 /* LocationManager.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		EFBE00992D9B8CE100F41BC0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EFBE009A2D9B8D1000F41BC0 /* CLLocationCoordinate2D+Ext.swift */,
+				EFBE009F2D9B92B600F41BC0 /* MKCoordinateRegion+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		EFBE009C2D9B8D4000F41BC0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EFBE009D2D9B8D5000F41BC0 /* MapOption.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +119,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EFBE007C2D9B824400F41BC0 /* HelloMap */,
 			);
 			name = HelloMap;
 			packageProductDependencies = (
@@ -109,6 +166,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFBE00912D9B824E00F41BC0 /* Preview Assets.xcassets in Resources */,
+				EFBE00922D9B824E00F41BC0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +178,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFBE00932D9B824E00F41BC0 /* ContentView.swift in Sources */,
+				EFBE009E2D9B8D5000F41BC0 /* MapOption.swift in Sources */,
+				EFBE00942D9B824E00F41BC0 /* HelloMapApp.swift in Sources */,
+				EFBE00A02D9B92B600F41BC0 /* MKCoordinateRegion+Ext.swift in Sources */,
+				EFBE009B2D9B8D1000F41BC0 /* CLLocationCoordinate2D+Ext.swift in Sources */,
+				EFBE00982D9B8CB200F41BC0 /* LocationManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,6 +320,9 @@
 				DEVELOPMENT_TEAM = T9MD4URZFH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelloMap/Info.plist;
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "HelloMap want to access your Location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -284,6 +352,9 @@
 				DEVELOPMENT_TEAM = T9MD4URZFH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HelloMap/Info.plist;
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "HelloMap want to access your Location";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
